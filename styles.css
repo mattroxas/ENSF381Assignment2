@@ -120,13 +120,6 @@ main {
 }
 
 /* contact.html */
-main .contact-info {
-    background-color: #ddd;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-}
-
 .contact-info {
     background-color: #ddd;
     padding: 20px;
@@ -152,4 +145,52 @@ main .contact-info {
 
 .contact-method ul li a:hover {
     color: #007BFF;
+}
+
+/* login.html */
+.login-form {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.login-form label {
+    display: block;
+    margin: 10px;
+}
+
+.login-form input {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.login-form input::placeholder {
+    color: #999;
+}
+
+.login-form .login-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    opacity: 0.5;
+}
+
+.login-form .login-btn:hover {
+    background-color: #45A049;
+    opacity: 1.0;
+}
+
+.login-form .signup-link {
+    color: #007BFF;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.login-form .signup-link:hover {
+    text-decoration: underline;
 }
