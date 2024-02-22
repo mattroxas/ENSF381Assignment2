@@ -1,0 +1,81 @@
+/* index.html */
+
+/* Header Section */
+.header {
+    background-color: #333;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.company-name {
+    color: white;
+}
+
+/* Navigation Section */
+nav {
+    background-color: #333;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+}
+
+/* About Us Section */
+.about-us {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+/* Shop Now Button */
+.shop-now-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+/* Customer Reviews Section */
+.customer-reviews {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+}
+
+.review {
+    margin-bottom: 20px;
+}
+
+.rating {
+    margin-top: 5px;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    padding: 10px;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
