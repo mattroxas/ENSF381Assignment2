@@ -1,5 +1,4 @@
 /* index.html */
-
 .header {
     background-color: #333;
     padding: 20px;
@@ -71,8 +70,8 @@ main {
     color: white;
     text-align: center;
 }
-/* products.html */
 
+/* products.html */
 .product-list {
     background-color: #ddd;
     padding: 0px;
@@ -120,3 +119,37 @@ main {
     background-color: #45A049;
 }
 
+/* contact.html */
+main .contact-info {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.contact-info {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.contact-method {
+    background-color: #ddd;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+.contact-method ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-method ul li a {
+    color: #000; 
+}
+
+.contact-method ul li a:hover {
+    color: #007BFF;
+}
