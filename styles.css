@@ -86,7 +86,8 @@ main {
     padding: 20px;
     margin: 20px;
     border-radius: 5px;
-    text-align: center
+    text-align: center;
+    height: 550px;
 }
 
 .product img {
