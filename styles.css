@@ -140,6 +140,7 @@ main {
 }
 
 .contact-method ul li a {
+    text-decoration: none;
     color: #000; 
 }
 
@@ -149,10 +150,13 @@ main {
 
 /* login.html */
 .login-form {
+    display: flex;
     background-color: #ddd;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .login-form label {
